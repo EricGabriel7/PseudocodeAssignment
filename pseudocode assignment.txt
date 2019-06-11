@@ -1,0 +1,86 @@
+1.
+
+Declare score # as 0
+
+Define score average as total sum of all score/total # of all scores
+
+If score # < 9
+	Prompt user for exam score
+	Calculate score average
+	Print Score average
+	Add 1 to score #
+Else stop
+
+
+Test Data: 0 exams
+
+Score # less than 9, 
+	Prompt and retrieve exam score from user	
+	Calculate score average 
+	Print score average 
+	Add 1 to score #
+	
+			4 exams
+
+Score # less than 9, 
+	Prompt and retrieve exam score from user	
+	Calculate score average 
+	Print score average 
+	Add 1 to score #
+
+
+2. 
+Declare rainfall as a number
+Declare roof height as a number
+Declare roof width as a number
+Declare roof area as roof width x roof height
+Declare roof area_inches as roof area x 12
+
+DOWHILE it is raining
+	Get roof width
+	Get roof height
+	Calculate roof area
+	Calculate roof area_inches
+	Get rainfall
+	Multiply roof area_inches by rainfall, define result as rainfall_volume
+	Divide rainfall_volume by 231, define this as rainfall_volume_gallons
+	Print rainfall_volume_gallons
+ENDDO
+
+Test data: with example data
+
+Declare rainfall as a number
+Declare roof height as a number
+Declare roof width as a number
+Declare roof area as roof width x roof height
+Declare roof area_inches as roof area x 12
+
+It is raining, so proceed with statement
+	Roof width is 50''
+	Roof height is 20''
+	Roof area is 50'x 20'
+	Roof area_inches is 600''x 240''
+	Rainfall is 1''
+	rainfall_volume = 600''x 240'' x 1'' = 144,000
+	rainfall_volume_gallons = 144,000/231= 623.38
+	Print rainfall_volume_gallons = 623.38 
+
+	Test data: other data set
+	
+Declare rainfall as a number
+Declare roof height as a number
+Declare roof width as a number
+Declare roof area as roof width x roof height
+Declare roof area_inches as roof area x 12
+
+It is raining, proceed with statement
+	Roof width is 13''
+	Roof height is 17''
+	Roof area is 13' x 17'
+	Roof area_inches 156'' x 204''
+	Rainfall is 8''
+	rainfall_volume = 156''x 204'' x 8'' = 254,592
+	rainfall_volume_gallons = 254,592/231= 1102.13
+	Print rainfall_volume_gallons =1102.13
+	
+
